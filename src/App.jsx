@@ -7,7 +7,7 @@ import Sidebar from './components/Sidebar/Sidebar'
 import Widgets from './components/Widgets/Widgets'
 
 function App() {
-  const user = null
+  const user = null;
   return (
       <div className='app'>
         {!user ? <Login /> : (
@@ -16,7 +16,7 @@ function App() {
             <div className='app__body'>
               <Sidebar />
               <Feed />
-              <Widgets />
+              {/* <Widgets /> */}
             </div>
           </>
         )}

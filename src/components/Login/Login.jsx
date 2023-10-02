@@ -1,10 +1,17 @@
 import { Button } from '@material-ui/core'
 import "./Login.css"
 
+import { auth, provider } from '../../config/firebase'
+import { signInWithPopup } from 'firebase/auth'
+
 const Login = () => {
 
   const signIn = () => {
-    // sign in...
+    signInWithPopup(auth, provider).then((result) => {
+      console.log(result)
+    }).catch((error) => {
+      alert(error.message)
+    })
   }
 
   return (
@@ -22,8 +29,6 @@ const Login = () => {
           />
         </div>
       </div>
-
-
 
       <Button type='submit' onClick={signIn}>
         Sign In

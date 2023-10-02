@@ -1,0 +1,100 @@
+.navbar {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;    
+    top: 0;
+    padding: 15px 20px;
+    background-color: #242526;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.navbar__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__left > img {
+    height: 40px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+
+.navbar__input {
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #2b2b2b;
+    padding: 10px 50px 10px 15px;
+    margin-left: 20px;
+    margin-right: -50px;
+    border-radius: 100px;
+}
+
+.navbar__input > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #eee;
+}
+
+.navbar__center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__option {
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.navbar__option--active {
+    border-bottom: 4px solid #1178F2;
+    padding: 0px 20px;
+}
+
+.navbar__option > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.navbar__option:hover > .MuiSvgIcon-root{
+    color: #1178F2;
+    cursor: pointer;
+
+}
+
+.navbar__option:hover {
+    background-color: #525357;
+    padding: 0px 40px;
+    border-radius: 10px;
+    border-bottom: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar__info {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.navbar__info > h4 {
+    margin-left: 10px;
+    color: #eee;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__right > .MuiSvgIcon-root {
+    color: gray
+}

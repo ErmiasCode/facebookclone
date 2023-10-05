@@ -1,0 +1,23 @@
+.widgets {
+  padding: 25px 10px;
+  flex: 0.33;
+  background-color: black;
+  display: none;
+}
+
+.widgets__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: gray;
+  font-size: small;
+}
+
+
+@media (min-width: 768px) {
+  .widgets {
+    display: block;
+    padding: 10px 20px;
+  }
+}

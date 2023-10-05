@@ -1,22 +1,33 @@
 .sidebarRow {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
+    
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
 .sidebarRow:hover {
-    background-color: dodgerblue;
+    background-color: #525357;
     border-radius: 10px;
+    transition: all 0.2s ease-in-out;
 }
-
 .sidebarRow > h4 {
     margin-left: 20px;
     font-weight: 500;
+    color: gray;
+}
+
+.sidebarRow:hover > h4 {
+    color: #eee;
 }
 
 .sidebarRow > .MuiSvgIcon-root {
-    color: #eee;
+    color: gray;
+    font-size: xx-large;
+}
+
+.sidebarRow:hover > .MuiSvgIcon-root {
+    color: #1178F2;
     font-size: xx-large;
 }

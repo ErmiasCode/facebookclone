@@ -1,9 +1,12 @@
 import './Navbar.css'
 
 import { Avatar, Icon, IconButton } from '@material-ui/core'
-import { Search, Home, Flag, SubscriptionsOutlined, StorefrontOutlined, SupervisedUserCircle, Add, Forum, NotificationsActive, ExpandMore } from '@material-ui/icons'
+import { Search, Home, Flag, SubscriptionsOutlined, StorefrontOutlined, SupervisedUserCircle, Add, Forum, NotificationsActive, ExpandMore, Notifications } from '@material-ui/icons'
+import { useStateValue } from '../../config/StateProvider';
 
 function Navbar() {
+  const [{ user }, dispatch] = useStateValue();
+
   return (
     <div className='navbar'>
         <div className='navbar__left'>
@@ -16,19 +19,19 @@ function Navbar() {
 
         <div className='navbar__center'>
             <div className='navbar__option navbar__option--active'>
-                <Home  fontSize='large' />
+                <Home />
             </div>
             <div className='navbar__option'>
-                <Flag fontSize='large' />
+                <Flag />
             </div>
             <div className='navbar__option'>
-                <SubscriptionsOutlined fontSize='large' />
+                <SubscriptionsOutlined />
             </div>
             <div className='navbar__option'>
-                <StorefrontOutlined fontSize='large' />
+                <StorefrontOutlined />
             </div>
             <div className='navbar__option'>
-                <SupervisedUserCircle fontSize='large' />
+                <SupervisedUserCircle />
             </div>
         </div>
 
@@ -43,8 +46,15 @@ function Navbar() {
                 <NotificationsActive />
             </IconButton>  */}
 
+            <div className='navbar__notification'>
+                <Forum fontSize='small'/>
+            </div>
+            <div className='navbar__notification'>
+                <Notifications fontSize='small'/>
+            </div>
+
             <div className="navbar__info">
-                <Avatar />
+                <Avatar src={user.photoURL} />
             </div>
             
             {/* <IconButton color='primary'>

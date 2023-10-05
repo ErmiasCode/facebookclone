@@ -1,11 +1,14 @@
 import { Bookmark, Chat, EmojiFlags, LocalHospital, People, Save, Storefront, VideoLibrary } from '@material-ui/icons'
-import SidebarRow from '../SidebarRow/SidebarRow'
+import SidebarRow from '../SidebarRow'
 import './Sidebar.css'
+import { useStateValue } from '../../config/StateProvider';
 
 const Sidebar = () => {
+  const [{ user }, dispatch] = useStateValue();
+
   return (
     <div className='sidebar'>
-        {/* <SidebarRow src={user.photoURL} title={user.displayName} /> */}
+        <SidebarRow src={user.photoURL} username={user.displayName} />
         <SidebarRow Icon={People} title='Friends' />
         <SidebarRow Icon={Chat} title='Messenger' />
         <SidebarRow Icon={VideoLibrary} title='Video' />

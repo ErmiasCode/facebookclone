@@ -4,31 +4,46 @@ import { useState } from 'react';
 
 import { Avatar } from '@material-ui/core'
 import { InsertEmoticon, PhotoLibrary, Videocam } from '@material-ui/icons'
+import { useStateValue } from '../../config/StateProvider';
+
+import db from '../../config/firebase';
+import { collection, addDoc, serverTimestamp, updateDoc } from 'firebase/firestore'
 
 const CreatePost = () => { 
+  const [{ user }, dispatch] = useStateValue();
   const [input, setInput] = useState('');
   const [imageUrl, setImageUrl] = useState('');
 
+
   const handleSubmit = (e) => {
         e.preventDefault()
+
+        const messagesRef = collection(db, 'posts');
+        addDoc(messagesRef, {
+            message: input,
+            timestamp: serverTimestamp(),
+            profilePic: user.photoURL,
+            username: user.displayName,
+            image: imageUrl
+        })
   }
 
   return (
     <div className='createPost'>
         <div className='createPost__top'>
-            <Avatar />
+            <Avatar src={user.photoURL} />
             <form>
                 <input 
                     className='createPost__input'
                     placeholder='Create a post' 
                     value={input}
-                    onChange={(e) => setInput(e.target)}
+                    onChange={(e) => setInput(e.target.value)}
                 />
                 <input 
                     className='' 
                     placeholder='Image URL (Optional)' 
                     value={imageUrl}
-                    onChange={(e) => setImageUrl(e.target)}
+                    onChange={(e) => setImageUrl(e.target.value)}
                 />
                 <button onClick={handleSubmit} type='submit'>Send</button>
             </form>          

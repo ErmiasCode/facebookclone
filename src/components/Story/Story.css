@@ -9,8 +9,21 @@
     margin-right: 10px;
     transition: transform 100ms ease-in;
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .story:hover {
     transform: scale(1.07);
+}
+
+.story__avatar {
+    opacity: 1 !important;
+}
+
+.story__title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: 500;
 }

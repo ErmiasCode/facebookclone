@@ -1,0 +1,52 @@
+.widgets {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  display: none;
+}
+
+.widgets__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  color: gray;
+  font-size: small;
+}
+
+.widgets__contact {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  padding-left: 5px;
+  color: #eee;
+}
+
+.widgets__contact:hover {
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.widgets__online {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: -6px;
+  z-index: 1;
+}
+
+.widgets__contact > p {
+  margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .widgets {
+    display: block;
+    padding: 10px 20px;
+  }
+}

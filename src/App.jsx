@@ -7,26 +7,27 @@ import Login from './components/Login'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import Widgets from './components/Widgets'
+import { useEffect } from 'react'
+import { onAuthStateChanged } from 'firebase/auth'
 
 function App() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ user }, dispatch] = useStateValue(); 
 
-  return (
+    return (
+      <>
+      {!user ? (<Login />): (
       <div className='app'>
-        {!user ? <Login /> : (
-          <>
-            <Navbar />
-            <div className='app__body'>
-              <Sidebar />
-              <Feed />
-              <Widgets />
-            </div>
-          </>
-        )}
-
+        <Navbar />
+        <div className='app__body'>
+          <Sidebar />
+          <Feed />
+          <Widgets />
+        </div>
         {/* Footer */}
       </div>
-  )
+      )}
+      </>
+    )
 }
 
 export default App

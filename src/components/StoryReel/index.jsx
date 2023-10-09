@@ -15,20 +15,19 @@ const StoryReel = () => {
             title="Coca Cola Winter Edition" 
         />
         <Story 
-            image="https://th.bing.com/th/id/OIG.X8g0Dntxr4ZSQpyXoBE_?pid=ImgGn" 
-             
-            userImage="https://avatars.githubusercontent.com/u/25126281?v=4" 
-            title="Background Story" 
+            image="https://th.bing.com/th/id/OIG.slcwk0yiYOgRAYInqHfI?pid=ImgGn" 
+            userImage="https://th.bing.com/th/id/OIP.Y2UrmuKvKSNfqo0RdwzJ9QHaHa?pid=ImgDet&rs=1" 
+            title="That View" 
         />
         <Story 
             image="https://th.bing.com/th/id/OIG.DxwG7jlTJSRbrPeDSwAY?pid=ImgGn" 
             userImage="https://th.bing.com/th/id/OIG.MhbXcI7nnnO_jLkF3t0A?pid=ImgGn" 
-            title="Background Story" 
+            title="The Prince" 
         />
         <Story 
             image="https://th.bing.com/th/id/OIG.rGUnw2k9BkfctG7ah0Z1?pid=ImgGn" 
             userImage="https://th.bing.com/th/id/OIG.WhMqLfXNcFP6CDSv6796?pid=ImgGn" 
-            title="Background Story" 
+            title="Coca Cola Fast Food" 
         />
     </div>
   )

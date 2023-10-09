@@ -1,5 +1,10 @@
 .sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    bottom: 0;
     padding: 10px 10px;
     flex: 0.33;
-    background-color: black;
+    background-color: #000000;
+    padding-top: 75px;
 }

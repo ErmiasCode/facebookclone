@@ -1,9 +1,11 @@
 .app {
-    height: 100vh;
     color: #eee;
 }
 
 .app__body {
     display: flex;
-    background-color: #0b0b0b;
+    min-height: 100vh;
+    max-height: auto;
+    background-color: #0e0e0e;
 }
+

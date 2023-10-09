@@ -9,7 +9,6 @@ const contacts = [
   { src: 'https://images.thalia.media/00/-/e2cc115b2e06409eacaf35c013ec869f/atomic-habits-taschenbuch-james-clear-englisch.jpeg', name: 'James Clear' },
 
   // { src: 'https://m.media-amazon.com/images/I/31jRv99FAgL._SY445_SX342_.jpg', name: 'Saygin Yalcin' },
-
   { src: 'https://images.thalia.media/00/-/a5841278bdb344e39a29795764cfadd3/money-master-the-game-taschenbuch-tony-robbins-englisch.jpeg', name: 'Tony Robbins' },
   { src: 'https://images.thalia.media/00/-/5b10ac2ce83741c4a81b170d98edc59c/the-4-hour-work-week-taschenbuch-timothy-ferriss-englisch.jpeg', name: 'Timothy Ferriss' },
   { src: 'https://m.media-amazon.com/images/I/51hyS-OoRUL._SY445_SX342_.jpg', name: 'Joseph Murphy' },
@@ -23,7 +22,6 @@ const contacts = [
   { src: 'https://m.media-amazon.com/images/I/51Kwi70xx0L._SY522_.jpg', name: 'Robert Greene Tomas Santiago' },
 
   // { src: 'https://m.media-amazon.com/images/I/51Kwi70xx0L._SY522_.jpg', name: 'Tomas Santiago' },
-
   { src: 'https://bilder.buecher.de/produkte/35/35235/35235339n.jpg', name: 'Josh Kaufman' },
   { src: 'https://m.media-amazon.com/images/I/91L0La1pwDL._SY522_.jpg', name: 'Benjamin Graham' },
   { src: 'https://m.media-amazon.com/images/I/414F9AE6QIL._SY445_SX342_.jpg', name: 'Vadim Zeland' },

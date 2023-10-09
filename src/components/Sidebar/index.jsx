@@ -5,6 +5,7 @@ import { useStateValue } from '../../config/StateProvider';
 
 const Sidebar = () => {
   const [{ user }, dispatch] = useStateValue();
+  console.log("Why?",user.photoURL)
 
   return (
     <div className='sidebar'>
@@ -15,7 +16,7 @@ const Sidebar = () => {
         <SidebarRow Icon={Bookmark} title='Save' />
         <SidebarRow Icon={EmojiFlags} title='Pages' />
         <SidebarRow Icon={Storefront} title='Marktplace' />
-        <SidebarRow Icon={LocalHospital} title='COVID-19 Information Center' />
+        <SidebarRow Icon={LocalHospital} title='COVID-19 Info Center' />
     </div>
   )
 }

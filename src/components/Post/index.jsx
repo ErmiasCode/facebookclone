@@ -14,13 +14,13 @@ const Post = ({userImg, image, username, timestamp, message}) => {
         </div>
       </div>
       
-      <div className="post__bottom">
+      {message && <div className="post__bottom">
         <p>{message}</p>
-      </div>
+      </div>}
 
-      <div className='post__image' >
+      {image && <div className='post__image' >
         <img src={image} alt='' />
-      </div>
+      </div>}
 
       <div className="post__options">
         <div className="post__option">

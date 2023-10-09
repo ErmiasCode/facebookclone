@@ -23,7 +23,7 @@ const contacts = [
   { src: 'https://m.media-amazon.com/images/I/51Kwi70xx0L._SY522_.jpg', name: 'Robert Greene Tomas Santiago' },
 
   // { src: 'https://m.media-amazon.com/images/I/51Kwi70xx0L._SY522_.jpg', name: 'Tomas Santiago' },
-  
+
   { src: 'https://bilder.buecher.de/produkte/35/35235/35235339n.jpg', name: 'Josh Kaufman' },
   { src: 'https://m.media-amazon.com/images/I/91L0La1pwDL._SY522_.jpg', name: 'Benjamin Graham' },
   { src: 'https://m.media-amazon.com/images/I/414F9AE6QIL._SY445_SX342_.jpg', name: 'Vadim Zeland' },
@@ -55,14 +55,3 @@ const Widgets = () => {
 }
 
 export default Widgets
-
-      {/* <iframe 
-        src="https://chat.openai.com/auth/login"
-        width="340"
-        height="100%"
-        style={{ border: "none", overflow: "hidden"}}
-        scrolling="no"
-        frameBorder="0"
-        allowTransparency="true"
-        allow="encrypted-media"
-      ></iframe> */}

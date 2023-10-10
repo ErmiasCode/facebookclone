@@ -14,14 +14,14 @@ Before you can run this project, you'll need to meet the following prerequisites
 1. Clone this repository to your local computer:
 
    ```bash
-   git clone https://github.com/ErmiasCode/ba278b32-754c-48c1-a615-63da882c75cb.git
+   git clone https://github.com/ErmiasCode/facebookclone.git
 
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd ba278b32-754c-48c1-a615-63da882c75cb
+   cd facebookclone
 
    ```
 
@@ -47,4 +47,4 @@ npm run dev
 yarn dev
 ```
 
-This will start the development server, and the project should be available at http://localhost:5173. You can now develop your React application, and changes will be automatically reloaded.
+This will start the development server, and you can access the project by navigating to http://localhost:5173 in your web browser. You are now ready to watch or work on the React application.

@@ -50,7 +50,7 @@ function Navbar() {
                 <Forum fontSize='small'/>
             </div>
             <div className='navbar__notification'>
-                <Notifications fontSize='small'/>
+                <Notifications />
             </div>
 
             <div className="navbar__info">

@@ -48,3 +48,11 @@ yarn dev
 ```
 
 This will start the development server, and you can access the project by navigating to http://localhost:5173 in your web browser. You are now ready to watch or work on the React application.
+
+## Further Information
+
+If you need more information about the project or using Vite, you can consult the official [Vite documentation](https://vitejs.dev/).
+
+## Thank You
+
+Thank you for checking out this project! Your interest and support means a lot. If you have any questions, suggestions, or feedback, please feel free to reach out. I appreciate your contributions and hope you find this project valuable.

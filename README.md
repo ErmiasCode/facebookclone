@@ -27,15 +27,13 @@ Before you can run this project, you'll need to meet the following prerequisites
 
 3. Install the dependencies:
 
-   If you're using npm:
-
-   ````bash
+   ```bash
+   # If you're using npm:
    npm install
 
-   If you're using yarn:
-   ```bash
-   yarn install
-   ````
+   # If you're using Yarn:
+   yarn dev
+   ```
 
 ## Local Development
 
@@ -50,5 +48,3 @@ yarn dev
 ```
 
 This will start the development server, and the project should be available at http://localhost:5173. You can now develop your React application, and changes will be automatically reloaded.
-
-

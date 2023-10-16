@@ -1,4 +1,4 @@
-# My React Vite Project
+# My React Vite - Facebook Clone Project
 
 Welcome to my React Vite - Facebook Clone Project!
 In this repository, you will find everything you need to download and run this project locally.

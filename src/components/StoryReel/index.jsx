@@ -1,5 +1,6 @@
-import Story from '../Story'
 import './StoryReel.css'
+
+import Story from '../Story'
 
 const StoryReel = () => {
   return (

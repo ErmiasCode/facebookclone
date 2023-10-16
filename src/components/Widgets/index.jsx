@@ -1,6 +1,7 @@
-import { Search, VideoCall } from '@material-ui/icons'
 import './Widgets.css'
+
 import { Avatar } from '@material-ui/core'
+import { Search } from '@material-ui/icons'
 
 const contacts = [
   { src: 'https://images2.medimops.eu/product/5c3f8f/M03257061269-large.jpg', name: 'Paulo Coelho' },

@@ -1,8 +1,9 @@
 import './Navbar.css'
 
-import { Avatar, Icon, IconButton } from '@material-ui/core'
-import { Search, Home, Flag, SubscriptionsOutlined, StorefrontOutlined, SupervisedUserCircle, Add, Forum, NotificationsActive, ExpandMore, Notifications } from '@material-ui/icons'
 import { useStateValue } from '../../config/StateProvider';
+
+import { Avatar } from '@material-ui/core'
+import { Search, Home, Flag, SubscriptionsOutlined, StorefrontOutlined, SupervisedUserCircle, Forum, Notifications } from '@material-ui/icons'
 
 function Navbar() {
   const [{ user }, dispatch] = useStateValue();

@@ -1,13 +1,12 @@
+import { useState, useRef } from 'react';
 import './CreatePost.css'
 
-import { useState, useRef } from 'react';
+import db from '../../config/firebase';
+import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
 
 import { Avatar } from '@material-ui/core'
 import { InsertEmoticon, PhotoLibrary, Videocam } from '@material-ui/icons'
 import { useStateValue } from '../../config/StateProvider';
-
-import db from '../../config/firebase';
-import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
 
 const CreatePost = () => { 
   const [{ user }, dispatch] = useStateValue();

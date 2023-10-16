@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
 import './Feed.css'
 
+import db from '../../config/firebase'
+import { collection, onSnapshot } from 'firebase/firestore'
+
 import CreatePost from '../CreatePost'
 import StoryReel from '../StoryReel'
 import Post from '../Post'
-
-import db from '../../config/firebase'
-import { collection, onSnapshot, orderBy } from 'firebase/firestore'
 
 const Feed = () => {
   const [posts, setPosts] = useState([])

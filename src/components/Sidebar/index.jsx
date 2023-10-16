@@ -1,7 +1,10 @@
-import { Bookmark, Chat, EmojiFlags, LocalHospital, People, Save, Storefront, VideoLibrary } from '@material-ui/icons'
-import SidebarRow from '../SidebarRow'
 import './Sidebar.css'
+
 import { useStateValue } from '../../config/StateProvider';
+
+import { Bookmark, Chat, EmojiFlags, LocalHospital, People, Storefront, VideoLibrary } from '@material-ui/icons'
+
+import SidebarRow from '../SidebarRow'
 
 const Sidebar = () => {
   const [{ user }, dispatch] = useStateValue();

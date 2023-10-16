@@ -1,6 +1,14 @@
 # My React Vite Project
 
-Welcome to my React Vite project! In this repository, you will find everything you need to download and run this project locally.
+Welcome to my React Vite - Facebook Clone Project!
+In this repository, you will find everything you need to download and run this project locally.
+
+### Tech Stack and Highlights
+
+- React, JS, HTML, CSS, MaterialUI
+- Firebase
+- Login with Google
+- Create Posts with Image Uploading
 
 ## Prerequisites
 

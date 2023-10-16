@@ -10,6 +10,9 @@ In this repository, you will find everything you need to download and run this p
 - Login with Google
 - Create Posts with Image Uploading
 
+**Note:** Please set up your own Firebase configuration by creating a `.env` file with your Firebase credentials, following the instructions in the `.env.sample` template provided.
+Do not use the Firebase configuration in this repository for security and privacy reasons.
+
 ## Prerequisites
 
 Before you can run this project, you'll need to meet the following prerequisites:

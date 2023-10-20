@@ -1,6 +1,6 @@
 import './SidebarRow.css'
 
-import { Avatar } from '@material-ui/core'
+import { Avatar } from '@mui/material'
 
 const SidebarRow = ({src, username, Icon, title}) => {
   return (

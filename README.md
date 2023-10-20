@@ -5,7 +5,7 @@ In this repository, you will find everything you need to download and run this p
 
 ### Tech Stack and Highlights
 
-- React, JS, HTML, CSS, MaterialUI
+- React, JS, HTML, CSS, Material UI
 - Firebase
 - Login with Google
 - Create Posts with Image Uploading

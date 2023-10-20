@@ -4,8 +4,8 @@ import './CreatePost.css'
 import db from '../../config/firebase';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
 
-import { Avatar } from '@material-ui/core'
-import { InsertEmoticon, PhotoLibrary, Videocam } from '@material-ui/icons'
+import { Avatar } from "@mui/material"
+import { InsertEmoticon, PhotoLibrary, Videocam } from '@mui/icons-material';
 import { useStateValue } from '../../config/StateProvider';
 
 const CreatePost = () => { 

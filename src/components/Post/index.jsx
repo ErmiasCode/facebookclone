@@ -1,7 +1,7 @@
 import './Post.css'
 
-import { Avatar } from '@material-ui/core'
-import { AccountCircle, ChatBubbleOutline, ExpandMore, NearMe, ThumbUp } from '@material-ui/icons'
+import { Avatar } from '@mui/material'
+import { AccountCircle, ChatBubbleOutline, ExpandMore, NearMe, ThumbUp } from '@mui/icons-material'
 
 const Post = ({userImg, image, username, timestamp, message}) => {
   return (

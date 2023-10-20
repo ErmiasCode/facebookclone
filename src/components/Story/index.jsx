@@ -1,6 +1,6 @@
 import './Story.css'
 
-import { Avatar } from '@material-ui/core'
+import { Avatar } from '@mui/material'
 
 const Story = ({ image, userImage, title }) => {
   return (

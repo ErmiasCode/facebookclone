@@ -5,7 +5,7 @@ import { signInWithPopup } from 'firebase/auth'
 import { useStateValue } from '../../config/StateProvider'
 import { actionTypes } from '../../config/reducer'
 
-import { Button } from '@material-ui/core'
+import { Button } from "@mui/material"
 
 const Login = () => {
   const [state, dispatch] = useStateValue();

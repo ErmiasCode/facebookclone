@@ -1,7 +1,7 @@
 import './Widgets.css'
 
-import { Avatar } from '@material-ui/core'
-import { Search } from '@material-ui/icons'
+import { Avatar } from '@mui/material'
+import { Search } from '@mui/icons-material'
 
 const contacts = [
   { src: 'https://images2.medimops.eu/product/5c3f8f/M03257061269-large.jpg', name: 'Paulo Coelho' },

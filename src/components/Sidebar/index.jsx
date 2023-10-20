@@ -2,7 +2,7 @@ import './Sidebar.css'
 
 import { useStateValue } from '../../config/StateProvider';
 
-import { Bookmark, Chat, EmojiFlags, LocalHospital, People, Storefront, VideoLibrary } from '@material-ui/icons'
+import { Bookmark, Chat, EmojiFlags, LocalHospital, People, Storefront, VideoLibrary } from '@mui/icons-material'
 
 import SidebarRow from '../SidebarRow'
 
